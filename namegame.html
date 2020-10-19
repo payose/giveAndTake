@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/namegame.css">
+
+	<title>name game</title>
+
+</head>
+<body>
+	<div>
+		<h2 class="memo"><span>Play my Name Game</span><br>get a 99% accurate prediction of your name
+		</h2>
+
+		<button class="btn" onclick="getFocus()">click to get started</button>
+
+		<form>
+			<input type="text" name="" id="firstname" placeholder="firstname" onkeypress="NextFocus(event)">
+
+			<input type="text" name="" id="middlename" placeholder="middlename" onkeypress="NextFocus(event)">
+
+			<input type="text" name="" id="surname" placeholder="surname" onkeypress="NextFocus(event)">
+		</form>
+
+		<button onclick="Predict()" id="predictBtn">Predict</button>
+
+		<div id="modal" onclick="Close()">
+			<div class="modal-container">
+				<p id="fullName"></p>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="js/namegame.js"></script>
+</body>
+</html>
