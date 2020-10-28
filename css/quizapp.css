@@ -8,6 +8,13 @@
 	--hue-correct:145;
 }
 
+.paragraph{
+	color: hsl(var(--hue), 90%,50%);
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px
+}
 
 body{
 	--hue:var(--hue-neutral);
